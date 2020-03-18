@@ -1,7 +1,7 @@
 @font-face {
     font-family: DINNextLTPro;
     src: url(assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.eot);
-    src: url(assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.eot@) format("embedded-opentype"), url(assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.woff) format("woff"), url(assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.ttf) format("truetype");
+    src: url(assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.eot?#iefix) format("embedded-opentype"),url(assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.woff) format("woff"),url(assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.ttf) format("truetype");
     font-weight: 200;
     font-style: normal
 }
@@ -9,7 +9,7 @@
 @font-face {
     font-family: DINNextLTPro;
     src: url(assets/fonts/DINNextLTProLight/DINNextLTPro-Light.eot);
-    src: url(assets/fonts/DINNextLTProLight/DINNextLTPro-Light.eot@) format("embedded-opentype"), url(assets/fonts/DINNextLTProLight/DINNextLTPro-Light.woff) format("woff"), url(assets/fonts/DINNextLTProLight/DINNextLTPro-Light.ttf) format("truetype");
+    src: url(assets/fonts/DINNextLTProLight/DINNextLTPro-Light.eot?#iefix) format("embedded-opentype"),url(assets/fonts/DINNextLTProLight/DINNextLTPro-Light.woff) format("woff"),url(assets/fonts/DINNextLTProLight/DINNextLTPro-Light.ttf) format("truetype");
     font-weight: 300;
     font-style: normal
 }
@@ -17,7 +17,7 @@
 @font-face {
     font-family: DINNextLTPro;
     src: url(assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.eot);
-    src: url(assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.eot@) format("embedded-opentype"), url(assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.woff) format("woff"), url(assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.ttf) format("truetype");
+    src: url(assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.eot?#iefix) format("embedded-opentype"),url(assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.woff) format("woff"),url(assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
@@ -25,7 +25,7 @@
 @font-face {
     font-family: DINNextLTPro;
     src: url(assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.eot);
-    src: url(assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.eot@) format("embedded-opentype"), url(assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.woff) format("woff"), url(assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.ttf) format("truetype");
+    src: url(assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.eot?#iefix) format("embedded-opentype"),url(assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.woff) format("woff"),url(assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.ttf) format("truetype");
     font-weight: 500;
     font-style: normal
 }
@@ -36,9 +36,8 @@
     box-sizing: border-box
 }
 
-body,
-html {
-    font-family: DINNextLTPro, sans-serif;
+body,html {
+    font-family: DINNextLTPro,sans-serif;
     font-size: 16px;
     overflow: hidden;
     overflow-y: hidden;
@@ -54,9 +53,7 @@ html {
     -webkit-tap-highlight-color: transparent
 }
 
-#stage,
-body,
-html {
+#stage,body,html {
     height: 100%;
     position: fixed;
     width: 100%
@@ -111,13 +108,13 @@ section.splash .some-container {
     position: absolute;
     right: 40px;
     top: 50%;
-    -webkit-transform: translate(50%, -50%) rotate(90deg);
-    transform: translate(50%, -50%) rotate(90deg)
+    -webkit-transform: translate(50%,-50%) rotate(90deg);
+    transform: translate(50%,-50%) rotate(90deg)
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.splash .some-container {
-        right: 30px
+        right:30px
     }
 }
 
@@ -125,9 +122,9 @@ section.splash .some-container a {
     overflow: hidden
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.splash .some-container a {
-        padding: 30px 0
+        padding:30px 0
     }
 }
 
@@ -144,9 +141,9 @@ section.splash footer {
     width: 100%
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.splash footer {
-        padding: 0 10px 10px 20px
+        padding:0 10px 10px 20px
     }
 }
 
@@ -162,8 +159,7 @@ section.splash footer .left {
     left: 0
 }
 
-section.splash footer .center,
-section.splash footer .left {
+section.splash footer .center,section.splash footer .left {
     bottom: 0;
     font-size: 10px;
     letter-spacing: .3em;
@@ -187,9 +183,9 @@ section.splash footer .right {
     transform: translateY(-50%)
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.splash footer .right {
-        bottom: -7px;
+        bottom:-7px;
         right: 7px;
         padding: 0
     }
@@ -212,8 +208,8 @@ section.splash footer .right .sound-button .text {
     white-space: nowrap;
     visibility: hidden;
     text-transform: uppercase;
-    -webkit-transform: translate(-100%, -50%);
-    transform: translate(-100%, -50%)
+    -webkit-transform: translate(-100%,-50%);
+    transform: translate(-100%,-50%)
 }
 
 section.splash footer .right .sound-ring {
@@ -221,14 +217,13 @@ section.splash footer .right .sound-ring {
     border-radius: 50%
 }
 
-section.splash footer .right .sound-ring,
-section.splash footer .right canvas {
+section.splash footer .right .sound-ring,section.splash footer .right canvas {
     height: 100%;
     left: 50%;
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     width: 100%
 }
 
@@ -246,24 +241,21 @@ section {
     fill: #fff
 }
 
-.dark-mode section.ui .logo .svg .draw-paths line,
-.dark-mode section.ui .logo .svg .draw-paths path,
-.dark-mode section.ui .logo .svg .draw-paths polyline {
+.dark-mode section.ui .logo .svg .draw-paths line,.dark-mode section.ui .logo .svg .draw-paths path,.dark-mode section.ui .logo .svg .draw-paths polyline {
     stroke: #fff
 }
 
-.dark-mode section.ui .logo .fake-line,
-.dark-mode section.ui a.close-button .stripe {
+.dark-mode section.ui .logo .fake-line,.dark-mode section.ui a.close-button .stripe {
     background-color: #fff
 }
 
 .dark-mode section.ui .menu .menu-container a {
-    color: hsla(0, 0%, 100%, .1)
+    color: hsla(0,0%,100%,.1)
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     .dark-mode section.ui .menu .menu-container a {
-        color: #fff
+        color:#fff
     }
 }
 
@@ -272,15 +264,14 @@ section {
 }
 
 .dark-mode section.ui .menu .some-container .link-container {
-    color: hsla(0, 0%, 100%, .5)
+    color: hsla(0,0%,100%,.5)
 }
 
 .dark-mode section.ui .menu .some-container .link-container span {
     color: #fff
 }
 
-.dark-mode section.ui .menu-button .stripe,
-body.landscape.is-on-splash .ui .menu-button .stripe {
+.dark-mode section.ui .menu-button .stripe,body.landscape.is-on-splash .ui .menu-button .stripe {
     background-color: #fff
 }
 
@@ -288,9 +279,7 @@ body.landscape.is-on-splash .ui .logo .svg .logo-lines>path {
     fill: #fff
 }
 
-body.landscape.is-on-splash .ui .logo .svg .draw-paths line,
-body.landscape.is-on-splash .ui .logo .svg .draw-paths path,
-body.landscape.is-on-splash .ui .logo .svg .draw-paths polyline {
+body.landscape.is-on-splash .ui .logo .svg .draw-paths line,body.landscape.is-on-splash .ui .logo .svg .draw-paths path,body.landscape.is-on-splash .ui .logo .svg .draw-paths polyline {
     stroke: #fff
 }
 
@@ -302,8 +291,7 @@ body.landscape.is-on-splash .splash .some-container {
     color: #fff
 }
 
-body.landscape.is-on-splash .splash .some-container .slash,
-body.landscape.is-on-splash .splash .some-container a {
+body.landscape.is-on-splash .splash .some-container .slash,body.landscape.is-on-splash .splash .some-container a {
     opacity: .5
 }
 
@@ -311,8 +299,7 @@ body.landscape.is-on-splash .splash footer .left {
     color: #aaa
 }
 
-body.landscape.is-on-splash .splash footer .center,
-body.landscape.is-on-splash .splash footer .right {
+body.landscape.is-on-splash .splash footer .center,body.landscape.is-on-splash .splash footer .right {
     color: #fff
 }
 
@@ -328,9 +315,7 @@ body.skull.is-on-splash .ui .logo .svg .logo-lines>path {
     fill: #000
 }
 
-body.skull.is-on-splash .ui .logo .svg .draw-paths line,
-body.skull.is-on-splash .ui .logo .svg .draw-paths path,
-body.skull.is-on-splash .ui .logo .svg .draw-paths polyline {
+body.skull.is-on-splash .ui .logo .svg .draw-paths line,body.skull.is-on-splash .ui .logo .svg .draw-paths path,body.skull.is-on-splash .ui .logo .svg .draw-paths polyline {
     stroke: #000
 }
 
@@ -342,8 +327,7 @@ body.skull.is-on-splash .splash .some-container {
     color: #000
 }
 
-body.skull.is-on-splash .splash .some-container .slash,
-body.skull.is-on-splash .splash .some-container a {
+body.skull.is-on-splash .splash .some-container .slash,body.skull.is-on-splash .splash .some-container a {
     opacity: .5
 }
 
@@ -351,8 +335,7 @@ body.skull.is-on-splash .splash footer .left {
     color: #666
 }
 
-body.skull.is-on-splash .splash footer .center,
-body.skull.is-on-splash .splash footer .right {
+body.skull.is-on-splash .splash footer .center,body.skull.is-on-splash .splash footer .right {
     color: #000
 }
 
@@ -376,9 +359,9 @@ section.ui .logo {
     z-index: 9999
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.ui .logo {
-        left: 20px;
+        left:20px;
         top: 20px;
         -webkit-transform: none;
         transform: none;
@@ -397,9 +380,9 @@ section.ui .logo .svg {
     width: 70px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.ui .logo .svg {
-        width: 75px
+        width:75px
     }
 }
 
@@ -409,9 +392,7 @@ section.ui .logo .svg .logo-lines>path {
     will-change: fill
 }
 
-section.ui .logo .svg .draw-paths line,
-section.ui .logo .svg .draw-paths path,
-section.ui .logo .svg .draw-paths polyline {
+section.ui .logo .svg .draw-paths line,section.ui .logo .svg .draw-paths path,section.ui .logo .svg .draw-paths polyline {
     -webkit-transition: stroke .4s;
     transition: stroke .4s;
     will-change: stroke
@@ -435,14 +416,14 @@ section.ui a.close-button {
     overflow: hidden;
     position: fixed;
     top: 40px;
-    -webkit-transform: translate(-50%, -50%) rotate(45deg);
-    transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-transform: translate(-50%,-50%) rotate(45deg);
+    transform: translate(-50%,-50%) rotate(45deg);
     width: 40px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.ui a.close-button {
-        top: 26px
+        top:26px
     }
 }
 
@@ -451,8 +432,8 @@ section.ui a.close-button .stripe {
     left: 50%;
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     width: 20px
 }
 
@@ -461,9 +442,9 @@ section.ui a.close-button .stripe:first-of-type {
     width: 50%
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.ui a.close-button .stripe:first-of-type {
-        width: 35%
+        width:35%
     }
 }
 
@@ -472,9 +453,9 @@ section.ui a.close-button .stripe:nth-of-type(2) {
     width: 2px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.ui a.close-button .stripe:nth-of-type(2) {
-        height: 35%
+        height:35%
     }
 }
 
@@ -490,9 +471,9 @@ section.ui .menu-button {
     z-index: 9999
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.ui .menu-button {
-        right: 10px;
+        right:10px;
         top: 5px
     }
 }
@@ -538,8 +519,8 @@ section.ui aside.menu .menu-container {
     position: absolute;
     text-align: center;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     width: 3000px
 }
 
@@ -550,9 +531,9 @@ section.ui aside.menu .menu-container .hackhack {
     letter-spacing: -.05em
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.ui aside.menu .menu-container .hackhack {
-        display: none
+        display:none
     }
 }
 
@@ -566,9 +547,9 @@ section.ui aside.menu .menu-container a {
     text-align: center
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.ui aside.menu .menu-container a {
-        display: block;
+        display:block;
         font-size: 60px;
         margin: 7vh 0
     }
@@ -585,9 +566,9 @@ section.ui aside.menu .some-container {
     white-space: nowrap
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.ui aside.menu .some-container {
-        bottom: 10px
+        bottom:10px
     }
 }
 
@@ -656,8 +637,7 @@ section.landscape-overlay .left {
     transform: translate(-20%)
 }
 
-section.landscape-overlay .left,
-section.landscape-overlay .right {
+section.landscape-overlay .left,section.landscape-overlay .right {
     display: block;
     bottom: 0;
     position: absolute;
@@ -678,9 +658,9 @@ section.landscape-overlay .gradient-overlay {
     position: absolute;
     top: 0;
     width: 100%;
-    background: -webkit-linear-gradient(top, hsla(0, 0%, 5%, 0), hsla(0, 0%, 5%, 0) 90%, hsla(0, 0%, 5%, .8));
-    background: linear-gradient(180deg, hsla(0, 0%, 5%, 0) 0, hsla(0, 0%, 5%, 0) 90%, hsla(0, 0%, 5%, .8));
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000e0e0e", endColorstr="#990e0e0e", GradientType=0)
+    background: -webkit-linear-gradient(top,hsla(0,0%,5%,0),hsla(0,0%,5%,0) 90%,hsla(0,0%,5%,.8));
+    background: linear-gradient(180deg,hsla(0,0%,5%,0) 0,hsla(0,0%,5%,0) 90%,hsla(0,0%,5%,.8));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000e0e0e",endColorstr="#990e0e0e",GradientType=0)
 }
 
 section.landscape-overlay .vignette {
@@ -689,10 +669,10 @@ section.landscape-overlay .vignette {
     position: absolute;
     top: 0;
     width: 100%;
-    background: -webkit-radial-gradient(center, ellipse cover, hsla(0, 0%, 5%, 0) 0, hsla(0, 0%, 5%, 0) 49%, hsla(0, 0%, 5%, .6) 100%);
-    background: -webkit-radial-gradient(center ellipse, hsla(0, 0%, 5%, 0) 0, hsla(0, 0%, 5%, 0) 49%, hsla(0, 0%, 5%, .6) 100%);
-    background: radial-gradient(ellipse at center, hsla(0, 0%, 5%, 0) 0, hsla(0, 0%, 5%, 0) 49%, hsla(0, 0%, 5%, .6) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000e0e0e", endColorstr="#990e0e0e", GradientType=1)
+    background: -webkit-radial-gradient(center,ellipse cover,hsla(0,0%,5%,0) 0,hsla(0,0%,5%,0) 49%,hsla(0,0%,5%,.6) 100%);
+    background: -webkit-radial-gradient(center ellipse,hsla(0,0%,5%,0) 0,hsla(0,0%,5%,0) 49%,hsla(0,0%,5%,.6) 100%);
+    background: radial-gradient(ellipse at center,hsla(0,0%,5%,0) 0,hsla(0,0%,5%,0) 49%,hsla(0,0%,5%,.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000e0e0e",endColorstr="#990e0e0e",GradientType=1)
 }
 
 section.landscape-overlay .text-container {
@@ -720,35 +700,28 @@ section.landscape-overlay .icon-container {
     width: 27px
 }
 
-section.landscape-overlay .icon-container img,
-section.landscape-overlay .icon-container svg {
+section.landscape-overlay .icon-container img,section.landscape-overlay .icon-container svg {
     display: block;
     height: auto;
     opacity: .6;
     width: 100%
 }
 
-section.landscape-overlay .icon-container img .stroke-path,
-section.landscape-overlay .icon-container svg .stroke-path {
+section.landscape-overlay .icon-container img .stroke-path,section.landscape-overlay .icon-container svg .stroke-path {
     fill: none;
     stroke: #fff;
     stroke-miterlimit: 10
 }
 
-section.landscape-overlay .icon-container img polygon,
-section.landscape-overlay .icon-container svg polygon {
+section.landscape-overlay .icon-container img polygon,section.landscape-overlay .icon-container svg polygon {
     fill: #fff
 }
 
-.dark-mode section.project .text-container,
-.dark-mode section.project .text-container .headline,
-.dark-mode section.project .text-container .highlight {
+.dark-mode section.project .text-container,.dark-mode section.project .text-container .headline,.dark-mode section.project .text-container .highlight {
     color: #fff
 }
 
-.dark-mode section.project .text-container .client-box,
-.dark-mode section.project .text-container .info-container,
-.dark-mode section.project .text-container .story-box {
+.dark-mode section.project .text-container .client-box,.dark-mode section.project .text-container .info-container,.dark-mode section.project .text-container .story-box {
     color: #7e7e7e
 }
 
@@ -757,26 +730,22 @@ section.landscape-overlay .icon-container svg polygon {
 }
 
 .dark-mode section.project .video-container .overlay {
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0,0,0,.5)
 }
 
 .dark-mode section.project .site-button {
     color: #fff
 }
 
-.dark-mode section.project .next-button svg,
-.dark-mode section.project .prev-button svg {
+.dark-mode section.project .next-button svg,.dark-mode section.project .prev-button svg {
     stroke: #fff
 }
 
-.dark-mode section.project .next-button .line .line-background,
-.dark-mode section.project .prev-button .line .line-background {
+.dark-mode section.project .next-button .line .line-background,.dark-mode section.project .prev-button .line .line-background {
     background-color: #fff
 }
 
-.dark-mode section.project .back-button,
-.dark-mode section.project .next-button .project-title,
-.dark-mode section.project .prev-button .project-title {
+.dark-mode section.project .back-button,.dark-mode section.project .next-button .project-title,.dark-mode section.project .prev-button .project-title {
     color: #fff
 }
 
@@ -789,19 +758,19 @@ section.project .project-container {
     width: 1120px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .project-container {
-        width: 100%
+        width:100%
     }
 }
 
-@media screen and (max-width:1119px) {
+@media screen and (max-width: 1119px) {
     section.project .project-container {
-        width: 100%
+        width:100%
     }
 }
 
-section.project::-webkit-media-controls-start-playback-button {
+section.project ::-webkit-media-controls-start-playback-button {
     display: none!important;
     -webkit-appearance: none
 }
@@ -813,15 +782,15 @@ section.project .project-mask {
     width: 1120px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .project-mask {
-        width: 100%
+        width:100%
     }
 }
 
-@media screen and (max-width:1119px) {
+@media screen and (max-width: 1119px) {
     section.project .project-mask {
-        width: 100vw
+        width:100vw
     }
 }
 
@@ -830,15 +799,15 @@ section.project .random-container {
     width: 1120px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .random-container {
-        width: 100vw
+        width:100vw
     }
 }
 
-@media screen and (max-width:1119px) {
+@media screen and (max-width: 1119px) {
     section.project .random-container {
-        width: 100%
+        width:100%
     }
 }
 
@@ -848,16 +817,16 @@ section.project .content-container {
     position: relative
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .content-container {
-        padding: 0 20px 30px;
+        padding:0 20px 30px;
         width: 100vw
     }
 }
 
-@media screen and (max-width:1119px) {
+@media screen and (max-width: 1119px) {
     section.project .content-container {
-        padding: 0 20px 230px;
+        padding:0 20px 230px;
         width: 100vw
     }
 }
@@ -866,9 +835,9 @@ section.project .text-container {
     padding: 180px 0 150px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .text-container {
-        padding: 100px 0 30px
+        padding:100px 0 30px
     }
 }
 
@@ -881,9 +850,9 @@ section.project .text-container h2 {
     width: 30vw
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .text-container h2 {
-        font-size: 40px;
+        font-size:40px;
         line-height: 40px;
         left: -3px;
         position: relative;
@@ -891,8 +860,7 @@ section.project .text-container h2 {
     }
 }
 
-section.project .text-container li,
-section.project .text-container ul {
+section.project .text-container li,section.project .text-container ul {
     list-style: none
 }
 
@@ -911,16 +879,16 @@ section.project .text-container .flex-wrapper {
     flex-flow: row
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .text-container .flex-wrapper {
-        display: block;
+        display:block;
         width: 100%
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     section.project .text-container .flex-wrapper {
-        display: block;
+        display:block;
         overflow: hidden;
         width: 100%
     }
@@ -938,16 +906,16 @@ section.project .text-container .client-box {
     width: 200px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .text-container .client-box {
-        display: block;
+        display:block;
         width: 100%
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     section.project .text-container .client-box {
-        display: block;
+        display:block;
         float: left;
         width: 50%
     }
@@ -962,16 +930,16 @@ section.project .text-container .info-container {
     letter-spacing: .1em
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .text-container .info-container {
-        display: block;
+        display:block;
         width: 100%
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     section.project .text-container .info-container {
-        display: block;
+        display:block;
         float: left;
         margin: 0 0 30px;
         width: 50%
@@ -983,10 +951,9 @@ section.project .text-container .services-box {
     margin: 0 0 60px
 }
 
-@media only screen and (max-width:499px) {
-    section.project .text-container .partners-box,
-    section.project .text-container .services-box {
-        margin: 15px 0 0
+@media only screen and (max-width: 499px) {
+    section.project .text-container .partners-box,section.project .text-container .services-box {
+        margin:15px 0 0
     }
 }
 
@@ -1001,16 +968,16 @@ section.project .text-container .story-box {
     width: 50%
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .text-container .story-box {
-        margin: 15px 0 0;
+        margin:15px 0 0;
         width: 100%
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     section.project .text-container .story-box {
-        margin: 15px 0 0;
+        margin:15px 0 0;
         width: 100%
     }
 }
@@ -1019,9 +986,9 @@ section.project .text-container .story-box .content {
     line-height: 35px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .text-container .story-box .content {
-        line-height: 28px
+        line-height:28px
     }
 }
 
@@ -1032,9 +999,9 @@ section.project .media-container .headline-container {
     z-index: 1
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .media-container .headline-container {
-        margin: 50px 0 0
+        margin:50px 0 0
     }
 }
 
@@ -1045,13 +1012,13 @@ section.project .media-container .headline {
     letter-spacing: -.05em;
     position: absolute;
     text-align: center;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .media-container .headline {
-        font-size: 100px
+        font-size:100px
     }
 }
 
@@ -1065,15 +1032,15 @@ section.project .video-container {
     z-index: 5
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .video-container {
-        margin: 0 0 30px
+        margin:0 0 30px
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     section.project .video-container {
-        margin: 0 0 150px
+        margin:0 0 150px
     }
 }
 
@@ -1091,21 +1058,21 @@ section.project .video-container .overlay {
 }
 
 section.project .video-container .overlay .play-button {
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0,0,0,.4);
     border-radius: 50%;
     height: 84px;
     left: 50%;
     overflow: hidden;
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     width: 84px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .video-container .overlay .play-button {
-        height: 50px;
+        height:50px;
         width: 50px
     }
 }
@@ -1117,14 +1084,14 @@ section.project .video-container .overlay .play-button svg {
     left: 52%;
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     width: 12px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .video-container .overlay .play-button svg {
-        width: 10px
+        width:10px
     }
 }
 
@@ -1144,15 +1111,15 @@ section.project .image-container {
     z-index: 5
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .image-container {
-        margin: 0 0 30px
+        margin:0 0 30px
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     section.project .image-container {
-        margin: 0 0 30px
+        margin:0 0 30px
     }
 }
 
@@ -1176,8 +1143,8 @@ section.project .site-button {
     right: 40px;
     text-transform: uppercase;
     top: 50%;
-    -webkit-transform: translate(50%, -50%) rotate(90deg);
-    transform: translate(50%, -50%) rotate(90deg)
+    -webkit-transform: translate(50%,-50%) rotate(90deg);
+    transform: translate(50%,-50%) rotate(90deg)
 }
 
 section.project .site-button .button-mask {
@@ -1188,9 +1155,9 @@ section.project .prev-button {
     left: 30px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .prev-button {
-        left: 20px
+        left:20px
     }
 }
 
@@ -1205,17 +1172,17 @@ section.project .prev-button .thumb-container {
 
 section.project .prev-button .thumb-mask {
     left: 6px;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
 }
 
 section.project .prev-button .line {
     margin: 0 10px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .prev-button .line {
-        margin: 0
+        margin:0
     }
 }
 
@@ -1227,9 +1194,9 @@ section.project .next-button {
     right: 30px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .next-button {
-        right: 20px
+        right:20px
     }
 }
 
@@ -1239,17 +1206,17 @@ section.project .next-button svg {
 
 section.project .next-button .thumb-mask {
     right: 6px;
-    -webkit-transform: translate(50%, -50%);
-    transform: translate(50%, -50%)
+    -webkit-transform: translate(50%,-50%);
+    transform: translate(50%,-50%)
 }
 
 section.project .next-button .line {
     margin: 0 10px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .next-button .line {
-        margin: 0
+        margin:0
     }
 }
 
@@ -1257,21 +1224,18 @@ section.project .next-button .line .line-background {
     left: 0
 }
 
-section.project .next-button,
-section.project .prev-button {
+section.project .next-button,section.project .prev-button {
     bottom: 30px;
     position: fixed
 }
 
-@media only screen and (max-width:499px) {
-    section.project .next-button,
-    section.project .prev-button {
-        bottom: 20px
+@media only screen and (max-width: 499px) {
+    section.project .next-button,section.project .prev-button {
+        bottom:20px
     }
 }
 
-section.project .next-button svg,
-section.project .prev-button svg {
+section.project .next-button svg,section.project .prev-button svg {
     display: inline-block;
     height: auto;
     position: relative;
@@ -1279,8 +1243,7 @@ section.project .prev-button svg {
     top: 2px
 }
 
-section.project .next-button canvas,
-section.project .prev-button canvas {
+section.project .next-button canvas,section.project .prev-button canvas {
     display: inline-block;
     height: 15px;
     position: relative;
@@ -1288,8 +1251,7 @@ section.project .prev-button canvas {
     top: 2px
 }
 
-section.project .next-button .thumb-mask,
-section.project .prev-button .thumb-mask {
+section.project .next-button .thumb-mask,section.project .prev-button .thumb-mask {
     width: 0;
     height: 120px;
     position: absolute;
@@ -1297,15 +1259,13 @@ section.project .prev-button .thumb-mask {
     top: 50%
 }
 
-section.project .next-button .thumb,
-section.project .prev-button .thumb {
+section.project .next-button .thumb,section.project .prev-button .thumb {
     opacity: .3;
     width: 200px;
     height: auto
 }
 
-section.project .next-button .line,
-section.project .prev-button .line {
+section.project .next-button .line,section.project .prev-button .line {
     display: inline-block;
     height: 1px;
     overflow: hidden;
@@ -1314,15 +1274,13 @@ section.project .prev-button .line {
     width: 0
 }
 
-section.project .next-button .line .line-background,
-section.project .prev-button .line .line-background {
+section.project .next-button .line .line-background,section.project .prev-button .line .line-background {
     height: 100%;
     position: absolute;
     width: 0
 }
 
-section.project .next-button .project-title,
-section.project .prev-button .project-title {
+section.project .next-button .project-title,section.project .prev-button .project-title {
     display: inline-block;
     font-size: 11px;
     letter-spacing: .3em;
@@ -1333,10 +1291,9 @@ section.project .prev-button .project-title {
     top: -2px
 }
 
-@media only screen and (max-width:499px) {
-    section.project .next-button .project-title,
-    section.project .prev-button .project-title {
-        top: -1px
+@media only screen and (max-width: 499px) {
+    section.project .next-button .project-title,section.project .prev-button .project-title {
+        top:-1px
     }
 }
 
@@ -1348,13 +1305,13 @@ section.project .back-button {
     margin: 0 0 -7px;
     position: fixed;
     text-transform: uppercase;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.project .back-button {
-        bottom: 20px
+        bottom:20px
     }
 }
 
@@ -1368,9 +1325,9 @@ section.project .back-button .mask {
     background-color: #0d0d0d
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.background {
-        background-color: #0d0d0d
+        background-color:#0d0d0d
     }
 }
 
@@ -1386,22 +1343,19 @@ section.project .back-button .mask {
     color: #fff
 }
 
-.dark-mode section.about .awards-container svg,
-.dark-mode section.about .client-container svg {
+.dark-mode section.about .awards-container svg,.dark-mode section.about .client-container svg {
     fill: #fff
 }
 
 .dark-mode section.about .scroll-indicator {
-    background-color: hsla(0, 0%, 100%, .1)
+    background-color: hsla(0,0%,100%,.1)
 }
 
-.dark-mode section.about .part-indicator li,
-.dark-mode section.about .scroll-indicator .bar {
+.dark-mode section.about .part-indicator li,.dark-mode section.about .scroll-indicator .bar {
     background-color: #fff
 }
 
-.dark-mode section.about .text-container h2,
-.dark-mode section.about .text-container p {
+.dark-mode section.about .text-container h2,.dark-mode section.about .text-container p {
     color: #fff
 }
 
@@ -1417,9 +1371,9 @@ section.about .part-container {
     width: 100%
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .part-container {
-        height: 100%
+        height:100%
     }
 }
 
@@ -1431,13 +1385,13 @@ section.about .text-container {
     position: absolute;
     text-align: center;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .text-container {
-        opacity: 1;
+        opacity:1;
         padding: 0 20px;
         width: 100%
     }
@@ -1451,9 +1405,9 @@ section.about .text-container h2 {
     text-transform: uppercase
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .text-container h2 {
-        font-size: 17px;
+        font-size:17px;
         margin: 0 0 35px
     }
 }
@@ -1463,9 +1417,9 @@ section.about .text-container p {
     line-height: 35px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .text-container p {
-        font-size: 15px;
+        font-size:15px;
         line-height: 23px;
         opacity: .5
     }
@@ -1478,13 +1432,13 @@ section.about .background {
     letter-spacing: -.05em;
     position: fixed;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .background {
-        font-size: 120px
+        font-size:120px
     }
 }
 
@@ -1494,9 +1448,9 @@ section.about .part-indicator {
     right: 45px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .part-indicator {
-        bottom: 25px;
+        bottom:25px;
         right: 25px
     }
 }
@@ -1516,8 +1470,8 @@ section.about .logo-container .logo-minimal {
     left: 50%;
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     width: 120px
 }
 
@@ -1529,9 +1483,9 @@ section.about .logo-container .scroll-indicator {
     width: 1px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .logo-container .scroll-indicator {
-        height: 80px;
+        height:80px;
         bottom: 62px
     }
 }
@@ -1552,13 +1506,13 @@ section.about .logo-container .scroll-indicator .text {
     margin: 0 0 0 2px;
     position: absolute;
     text-transform: uppercase;
-    -webkit-transform: translate(-50%, 40px);
-    transform: translate(-50%, 40px)
+    -webkit-transform: translate(-50%,40px);
+    transform: translate(-50%,40px)
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .what-container {
-        padding: 0 10px
+        padding:0 10px
     }
 }
 
@@ -1567,9 +1521,9 @@ section.about .awards-container .award-list {
     text-align: center
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .awards-container .award-list {
-        margin: 30px 0 0
+        margin:30px 0 0
     }
 }
 
@@ -1579,9 +1533,9 @@ section.about .awards-container .award-list li {
     margin: 0
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .awards-container .award-list li {
-        font-size: 12px;
+        font-size:12px;
         opacity: .5
     }
 }
@@ -1590,9 +1544,9 @@ section.about .awards-container .award-list li:nth-of-type(2) {
     margin: 0 70px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .awards-container .award-list li:nth-of-type(2) {
-        margin: 0 50px
+        margin:0 50px
     }
 }
 
@@ -1603,9 +1557,9 @@ section.about .awards-container .award-list li svg {
     width: auto
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .awards-container .award-list li svg {
-        height: 30px;
+        height:30px;
         margin: 0 0 15px
     }
 }
@@ -1614,9 +1568,9 @@ section.about .awards-container .award-list li svg.fwa-logo {
     width: 70px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .awards-container .award-list li svg.fwa-logo {
-        width: 50px
+        width:50px
     }
 }
 
@@ -1625,9 +1579,9 @@ section.about .client-container .client-list {
     width: 100%
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .client-container .client-list {
-        margin: 25px auto 0;
+        margin:25px auto 0;
         width: 100%
     }
 }
@@ -1638,9 +1592,9 @@ section.about .client-container .client-list td {
     width: 30%
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .client-container .client-list td {
-        height: 70px;
+        height:70px;
         opacity: .5
     }
 }
@@ -1650,14 +1604,14 @@ section.about .client-container .client-list td svg {
     left: 50%;
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.about .client-container .client-list td svg {
-        -webkit-transform: translate(-50%, -50%) scale(.7);
-        transform: translate(-50%, -50%) scale(.7)
+        -webkit-transform:translate(-50%,-50%) scale(.7);
+        transform: translate(-50%,-50%) scale(.7)
     }
 }
 
@@ -1725,13 +1679,13 @@ section.contact .background {
     letter-spacing: -.05em;
     position: fixed;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.contact .background {
-        font-size: 120px
+        font-size:120px
     }
 }
 
@@ -1753,8 +1707,8 @@ section.contact .content-container .text-container {
     text-align: center;
     text-transform: uppercase;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     white-space: nowrap
 }
 
@@ -1770,12 +1724,11 @@ section.contact .content-container .wave-fade {
     left: 50%;
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
 }
 
-.dark-mode section.work .navigation-container .number,
-.dark-mode section.work .navigation-container .total {
+.dark-mode section.work .navigation-container .number,.dark-mode section.work .navigation-container .total {
     color: #fff
 }
 
@@ -1783,14 +1736,11 @@ section.contact .content-container .wave-fade {
     background-color: #fff
 }
 
-.dark-mode section.work .text-container .info-container .client,
-.dark-mode section.work .text-container .info-container .headline,
-.dark-mode section.work .text-container .link-container a {
+.dark-mode section.work .text-container .info-container .client,.dark-mode section.work .text-container .info-container .headline,.dark-mode section.work .text-container .link-container a {
     color: #fff
 }
 
-.dark-mode section.work .text-container .link-container a .dark-line,
-.dark-mode section.work .text-container .link-container a .line {
+.dark-mode section.work .text-container .link-container a .dark-line,.dark-mode section.work .text-container .link-container a .line {
     background-color: #fff
 }
 
@@ -1803,15 +1753,16 @@ section.work .navigation-container {
     width: 160px
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .navigation-container {
-        height: 100%;
+        height:100%;
         z-index: 99;
         padding: 0 0 0 20px;
         pointer-events: none;
         top: 0;
         width: 100%
     }
+
     section.work .navigation-container ul {
         display: none
     }
@@ -1824,9 +1775,9 @@ section.work .navigation-container .number-overlay {
     transform: translateY(50%)
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .navigation-container .number-overlay {
-        bottom: auto;
+        bottom:auto;
         margin: -25px 0 0;
         top: 50%;
         -webkit-transform: translateY(-100%);
@@ -1843,10 +1794,11 @@ section.work .navigation-container .number-overlay .number {
     margin: 0 75px 0 0
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .navigation-container .number-overlay .number {
-        margin: 0
+        margin:0
     }
+
     section.work .navigation-container .number-overlay .number:after {
         content: "/";
         display: inline-block;
@@ -1864,9 +1816,9 @@ section.work .navigation-container .number-overlay .total {
     opacity: .2
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .navigation-container .number-overlay .total {
-        margin: 0
+        margin:0
     }
 }
 
@@ -1887,15 +1839,15 @@ section.work .text-container {
     width: 30%
 }
 
-@media only screen and (max-width:1300px) {
+@media only screen and (max-width: 1300px) {
     section.work .text-container {
-        left: 190px
+        left:190px
     }
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .text-container {
-        left: 0;
+        left:0;
         top: 0;
         height: 100%;
         width: 100%
@@ -1909,9 +1861,9 @@ section.work .text-container .info-container {
     transform: translateY(-50%)
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .text-container .info-container {
-        padding: 0 20px;
+        padding:0 20px;
         -webkit-transform: translateY(-2em);
         transform: translateY(-2em)
     }
@@ -1926,9 +1878,9 @@ section.work .text-container .info-container .headline {
     position: relative
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .text-container .info-container .headline {
-        font-size: 40px;
+        font-size:40px;
         line-height: 40px;
         left: -3px;
         margin: 10px 0 5px
@@ -1943,9 +1895,9 @@ section.work .text-container .info-container .client {
     text-transform: uppercase
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .text-container .info-container .client {
-        font-size: 12px
+        font-size:12px
     }
 }
 
@@ -1955,9 +1907,9 @@ section.work .text-container .link-container {
     position: absolute
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .text-container .link-container {
-        bottom: 20px;
+        bottom:20px;
         left: 20px
     }
 }
@@ -2000,9 +1952,9 @@ section.work .scroll-indicator-container {
     display: none
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .scroll-indicator-container {
-        display: block;
+        display:block;
         position: fixed;
         bottom: 20px;
         opacity: .5;
@@ -2029,8 +1981,7 @@ section.work .scroll-indicator-container .down-mask {
     margin: 15px 0 0
 }
 
-section.work .scroll-indicator-container .down-mask,
-section.work .scroll-indicator-container .up-mask {
+section.work .scroll-indicator-container .down-mask,section.work .scroll-indicator-container .up-mask {
     overflow: hidden
 }
 
@@ -2046,9 +1997,9 @@ section.work .preview-container {
     width: 70%
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .preview-container {
-        height: 100%;
+        height:100%;
         left: 0;
         top: 0;
         width: 100%;
@@ -2065,9 +2016,9 @@ section.work .preview-container .mask {
     visibility: hidden
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .preview-container .mask {
-        width: 100%
+        width:100%
     }
 }
 
@@ -2079,12 +2030,12 @@ section.work .preview-container video {
     width: auto
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .preview-container video {
-        left: 50%;
+        left:50%;
         top: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
         display: none
     }
 }
@@ -2097,12 +2048,12 @@ section.work .preview-container img {
     width: auto
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width: 499px) {
     section.work .preview-container img {
-        height: 102%;
+        height:102%;
         left: 50%;
         top: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%)
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%)
     }
 }
