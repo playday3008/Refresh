@@ -1,0 +1,64 @@
+{
+	"projects": [
+		{
+			"title": "Hypebeast",
+			"client": "Hypebeast/Pitch",
+			"background": "assets/images/projects/Hypebeast/_tmb.jpg",
+			"background-type": "image",
+			"project-url": "hypebeast-pitch",
+			"project-thumb": "assets/images/projects/Hypebeast/_tmb.jpg",
+			"mobile-background": "assets/images/projects/Hypebeast/mobile_thumb.jpg",
+			"template": "Hypebeast",
+			"assets": [
+				"assets/images/projects/Hypebeast/00.jpg",
+				"assets/images/projects/Hypebeast/01.jpg",
+				"assets/images/projects/Hypebeast/02.jpg",
+				"assets/images/projects/Hypebeast/03.jpg",
+				"assets/images/projects/Hypebeast/04.jpg",
+				"assets/images/projects/Hypebeast/05.jpg",
+				"assets/images/projects/Hypebeast/06.jpg",
+				"assets/images/projects/Hypebeast/07.jpg",
+				"assets/images/projects/Hypebeast/08.jpg",
+				"assets/images/projects/Hypebeast/09.jpg"
+			]
+		},
+		{
+			"title": "Fixed It",
+			"client": "Opera Software",
+			"background": "assets/images/projects/FixedIt/_tmb.jpg",
+			"background-type": "image",
+			"project-url": "fixed-it",
+			"project-thumb": "assets/images/projects/FixedIt/_tmb.jpg",
+			"mobile-background": "assets/images/projects/FixedIt/mobile_thumb.jpg",
+			"template": "FixedIt",
+			"assets": [
+				"assets/images/projects/FixedIt/00.jpg",
+				"assets/images/projects/FixedIt/01.jpg",
+				"assets/images/projects/FixedIt/02.jpg",
+				"assets/images/projects/FixedIt/03.jpg",
+				"assets/images/projects/FixedIt/04.jpg",
+				"assets/images/projects/FixedIt/05.jpg",
+				"assets/images/projects/FixedIt/06.jpg",
+				"assets/images/projects/FixedIt/07.jpg"
+			]
+		},
+		{
+			"title": "Jason Bourne",
+			"client": "Universal Studios/Pitch",
+			"background": "assets/images/projects/JasonBourne/_tmb.jpg",
+			"background-type": "image",
+			"project-url": "jason-bourne-pitch",
+			"project-thumb": "assets/images/projects/JasonBourne/_tmb.jpg",
+			"mobile-background": "assets/images/projects/JasonBourne/mobile_thumb.jpg",
+			"template": "JasonBourne",
+			"assets": [
+				"assets/images/projects/JasonBourne/_tmb.jpg",
+				"assets/images/projects/JasonBourne/00.jpg",
+				"assets/images/projects/JasonBourne/01.jpg",
+				"assets/images/projects/JasonBourne/02.jpg",
+				"assets/images/projects/JasonBourne/03.jpg",
+				"assets/images/projects/JasonBourne/04.jpg"
+			]
+		}
+	]
+}
