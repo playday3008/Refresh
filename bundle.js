@@ -1201,7 +1201,7 @@ webpackJsonp([4], [function(t, e, n) {
                 value: function() {
                     return new Promise(function(t, e) {
                         g.default.loadAll([{
-                            url: "assets/images/logo-ani.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/logo-ani.svg",
                             type: m.Types.SVG
                         }]).then(function() {
                             t()
@@ -2652,13 +2652,13 @@ webpackJsonp([4], [function(t, e, n) {
                 value: function() {
                     return new Promise(function(t, e) {
                         h.default.loadAll([{
-                            url: "assets/images/Mic.png",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Mic.png",
                             type: f.Types.IMAGE
                         }, {
-                            url: "assets/images/Raph.png",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Raph.png",
                             type: f.Types.IMAGE
                         }, {
-                            url: "assets/images/logo-turn.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/logo-turn.svg",
                             type: f.Types.SVG
                         }]).then(function() {
                             t()
@@ -4432,55 +4432,55 @@ webpackJsonp([4], [function(t, e, n) {
                     var t = this;
                     return new Promise(function(e, n) {
                         y.default.loadAll([{
-                            url: "assets/images/about/Who.png",
+                            url: "https://playday3008.github.io/Refresh/assets/images/about/Who.png",
                             type: g.Types.IMAGE
                         }, {
-                            url: "assets/images/about/What.png",
+                            url: "https://playday3008.github.io/Refresh/assets/images/about/What.png",
                             type: g.Types.IMAGE
                         }, {
-                            url: "assets/images/about/Achievements.png",
+                            url: "https://playday3008.github.io/Refresh/assets/images/about/Achievements.png",
                             type: g.Types.IMAGE
                         }, {
-                            url: "assets/images/about/Clients.png",
+                            url: "https://playday3008.github.io/Refresh/assets/images/about/Clients.png",
                             type: g.Types.IMAGE
                         }, {
-                            url: "assets/images/Logo_minimal.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Logo_minimal.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/Clio_logo.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Clio_logo.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/FWA_logo.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/FWA_logo.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/Awwwards_logo.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Awwwards_logo.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/Disney_logo.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Disney_logo.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/BMW_logo.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/BMW_logo.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/Dove_logo.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Dove_logo.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/DNB_logo.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/DNB_logo.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/Lion_logo.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Lion_logo.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/DHL_logo.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/DHL_logo.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/Volvo_logo.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Volvo_logo.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/MCD_logo.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/MCD_logo.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/Netcom_logo.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Netcom_logo.svg",
                             type: g.Types.SVG
                         }]).then(function(n) {
                             if (t.$contentImages = n.slice(0, 4), t.waveShowFactor = 1, window.APP.isMobile) {
@@ -5842,7 +5842,7 @@ webpackJsonp([4], [function(t, e, n) {
                     var t = this;
                     this.$logo = new Image, this.$logo.onload = function() {
                         t.logoWidth = t.$logo.width, t.logoHeight = t.$logo.height, t.logoOutputWidth = 120 * window.devicePixelRatio, t.logoOutputHeight = t.logoHeight * (120 * window.devicePixelRatio / t.$logo.width)
-                    }, this.$logo.src = this.isDark ? "assets/images/Logo_minimal_white.svg" : "assets/images/Logo_minimal.svg"
+                    }, this.$logo.src = this.isDark ? "https://playday3008.github.io/Refresh/assets/images/Logo_minimal_white.svg" : "https://playday3008.github.io/Refresh/assets/images/Logo_minimal.svg"
                 }
             }, {
                 key: "setupDOMNodes",
@@ -6051,16 +6051,16 @@ webpackJsonp([4], [function(t, e, n) {
                     var t = this;
                     return new Promise(function(e, i) {
                         y.default.loadAll([{
-                            url: "assets/data/work.json",
+                            url: "https://playday3008.github.io/Refresh/assets/data/work.json",
                             type: g.Types.JSON
                         }, {
-                            url: "assets/images/Arrow_Right.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Arrow_Right.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/Arrow_Left.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Arrow_Left.svg",
                             type: g.Types.SVG
                         }, {
-                            url: "assets/images/Play_Button.svg",
+                            url: "https://playday3008.github.io/Refresh/assets/images/Play_Button.svg",
                             type: g.Types.SVG
                         }]).then(function(i) {
                             n.e(3, function(t) {
@@ -8270,7 +8270,7 @@ webpackJsonp([4], [function(t, e, n) {
                     var t = this;
                     return new Promise(function(e, n) {
                         g.default.loadAll([{
-                            url: "assets/data/work.json",
+                            url: "https://playday3008.github.io/Refresh/assets/data/work.json",
                             type: m.Types.JSON
                         }]).then(function(n) {
                             t.projectData = n[0].projects;
@@ -11843,243 +11843,243 @@ webpackJsonp([4], [function(t, e, n) {
         }.call(e, n, e, t), !(void 0 !== i && (t.exports = i))
     }()
 }, function(t, e, n) {
-    t.exports = n.p + "index.html"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/index.html"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Arrow_Left.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Arrow_Left.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Arrow_Right.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Arrow_Right.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Arrow_Work.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Arrow_Work.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Awwwards_logo.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Awwwards_logo.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/BMW_logo.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/BMW_logo.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Clio_logo.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Clio_logo.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/DHL_logo.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/DHL_logo.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/DNB_logo.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/DNB_logo.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Disney_logo.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Disney_logo.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Dove_logo.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Dove_logo.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/FWA_logo.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/FWA_logo.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Lion_logo.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Lion_logo.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Logo_minimal.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Logo_minimal.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Logo_minimal_white.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Logo_minimal_white.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/MCD_logo.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/MCD_logo.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Mic.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Mic.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Netcom_logo.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Netcom_logo.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Play_Button.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Play_Button.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Raph.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Raph.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/Volvo_logo.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/Volvo_logo.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/about/Achievements.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/about/Achievements.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/about/Clients.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/about/Clients.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/about/What.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/about/What.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/about/Who.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/about/Who.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/cover_img.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/cover_img.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/apple-touch-icon-114x114.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/apple-touch-icon-114x114.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/apple-touch-icon-120x120.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/apple-touch-icon-120x120.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/apple-touch-icon-144x144.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/apple-touch-icon-144x144.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/apple-touch-icon-152x152.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/apple-touch-icon-152x152.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/apple-touch-icon-57x57.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/apple-touch-icon-57x57.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/apple-touch-icon-60x60.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/apple-touch-icon-60x60.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/apple-touch-icon-72x72.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/apple-touch-icon-72x72.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/apple-touch-icon-76x76.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/apple-touch-icon-76x76.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/favicon-128.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/favicon-128.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/favicon-16x16.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/favicon-16x16.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/favicon-196x196.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/favicon-196x196.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/favicon-32x32.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/favicon-32x32.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/favicon-96x96.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/favicon-96x96.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/favicon.ico"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/favicon.ico"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/mstile-144x144.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/mstile-144x144.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/mstile-150x150.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/mstile-150x150.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/mstile-310x150.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/mstile-310x150.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/mstile-310x310.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/mstile-310x310.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/fav_ico/mstile-70x70.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/fav_ico/mstile-70x70.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/landscape/background.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/landscape/background.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/landscape/pillarTexture.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/landscape/pillarTexture.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/logo-ani.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/logo-ani.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/logo-animation.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/logo-animation.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/logo-symbol.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/logo-symbol.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/logo-turn.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/logo-turn.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/logo-type.svg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/logo-type.svg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/logo_glitch.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/logo_glitch.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/FixedIt/00.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/FixedIt/00.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/FixedIt/01.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/FixedIt/01.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/FixedIt/02.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/FixedIt/02.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/FixedIt/03.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/FixedIt/03.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/FixedIt/04.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/FixedIt/04.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/FixedIt/05.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/FixedIt/05.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/FixedIt/06.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/FixedIt/06.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/FixedIt/07.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/FixedIt/07.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/FixedIt/tmb.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/FixedIt/tmb.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/FixedIt/mobile_thumb.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/FixedIt/mobile_thumb.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/00.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/Hypebeast/00.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/01.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/Hypebeast/01.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/02.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/Hypebeast/02.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/03.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/Hypebeast/03.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/04.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/Hypebeast/04.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/05.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/Hypebeast/05.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/06.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/Hypebeast/06.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/07.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/Hypebeast/07.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/08.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/Hypebeast/08.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/09.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/Hypebeast/09.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/tmb.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/Hypebeast/tmb.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/mobile_thumb.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/Hypebeast/mobile_thumb.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/JasonBourne/00.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/JasonBourne/00.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/JasonBourne/01.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/JasonBourne/01.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/JasonBourne/02.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/JasonBourne/02.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/JasonBourne/03.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/JasonBourne/03.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/JasonBourne/04.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/JasonBourne/04.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/JasonBourne/tmb.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/JasonBourne/tmb.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/JasonBourne/mobile_thumb.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/projects/JasonBourne/mobile_thumb.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/symbol-e.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/symbol-e.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/symbol-h.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/symbol-h.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/symbol-l.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/symbol-l.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/test.png"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/test.png"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/uvTest.jpg"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/images/uvTest.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/3d/Skull_3.obj"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/3d/Skull_3.obj"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/3d/logo.obj"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/3d/logo.obj"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/3d/skull.obj"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/3d/skull.obj"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/3d/skull_final.obj"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/3d/skull_final.obj"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/data/work.json"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/data/work.json"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProLight/DINNextLTPro-Light.eot"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProLight/DINNextLTPro-Light.eot"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProLight/DINNextLTPro-Light.otf"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProLight/DINNextLTPro-Light.otf"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProLight/DINNextLTPro-Light.ttf"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProLight/DINNextLTPro-Light.ttf"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProLight/DINNextLTPro-Light.woff"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProLight/DINNextLTPro-Light.woff"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.eot"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.eot"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.otf"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.otf"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.ttf"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.ttf"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.woff"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProMedium/DINNextLTPro-Medium.woff"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.eot"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.eot"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.otf"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.otf"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.ttf"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.ttf"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.woff"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProRegular/DINNextLTPro-Regular.woff"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.eot"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.eot"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.otf"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.otf"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.ttf"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.ttf"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.woff"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/fonts/DINNextLTProUltraLight/DINNextLTPro-UltraLight.woff"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/sound/landscape/ambient.mp3"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/sound/landscape/ambient.mp3"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/sound/landscape/impact.mp3"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/sound/landscape/impact.mp3"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/sound/skull/closed_loop.mp3"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/sound/skull/closed_loop.mp3"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/sound/skull/explosion.mp3"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/sound/skull/explosion.mp3"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/sound/skull/open_loop.mp3"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/sound/skull/open_loop.mp3"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/sound/skull/reassambly.mp3"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/sound/skull/reassambly.mp3"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/sound/skull/reassambly_1.mp3"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/sound/skull/reassambly_1.mp3"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/videos/Appoteket.mp4"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/videos/Appoteket.mp4"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/videos/BaconClubhouse.mp4"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/videos/BaconClubhouse.mp4"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/videos/Watchinvest.mp4"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/videos/Watchinvest.mp4"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/videos/big_buck_bunny.mp4"
+    t.exports = n.p + "https://playday3008.github.io/Refresh/assets/videos/big_buck_bunny.mp4"
 }, , function(t, e) {
     "use strict";
     e.__esModule = !0;

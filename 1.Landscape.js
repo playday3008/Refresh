@@ -3479,21 +3479,21 @@ webpackJsonp([1], [, , function(t, e) {
                     value: function() {
                         this.SOUNDS = {
                             ambient: Object.assign(new Howl({
-                                src: "assets/sound/landscape/ambient.mp3",
+                                src: "https://playday3008.github.io/Refresh/assets/sound/landscape/ambient.mp3",
                                 loop: !0,
                                 autoplay: !1
                             }), {
                                 baseVolume: .3
                             }),
                             swoosh: Object.assign(new Howl({
-                                src: "assets/sound/landscape/ambient.mp3",
+                                src: "https://playday3008.github.io/Refresh/assets/sound/landscape/ambient.mp3",
                                 loop: !0,
                                 autoplay: !1
                             }), {
                                 baseVolume: 0
                             }),
                             impact: Object.assign(new Howl({
-                                src: "assets/sound/landscape/impact.mp3",
+                                src: "https://playday3008.github.io/Refresh/assets/sound/landscape/impact.mp3",
                                 loop: !1,
                                 autoplay: !1
                             }), {
@@ -3631,7 +3631,7 @@ webpackJsonp([1], [, , function(t, e) {
                 p = n(233),
                 h = n(234),
                 d = 2e3,
-                c = "assets/images/landscape/background.jpg",
+                c = "https://playday3008.github.io/Refresh/assets/images/landscape/background.jpg",
                 g = function(e) {
                     function n(t, e) {
                         o(this, n);
@@ -4126,13 +4126,13 @@ webpackJsonp([1], [, , function(t, e) {
             w.preload = function() {
                 return new Promise(function(t, e) {
                     m.default.loadAll([{
-                        url: "assets/images/landscape/pillarTexture.png",
+                        url: "https://playday3008.github.io/Refresh/assets/images/landscape/pillarTexture.png",
                         type: f.Types.IMAGE
                     }, {
-                        url: "assets/images/landscape/background.jpg",
+                        url: "https://playday3008.github.io/Refresh/assets/images/landscape/background.jpg",
                         type: f.Types.IMAGE
                     }, {
-                        url: "assets/3d/logo.obj",
+                        url: "https://playday3008.github.io/Refresh/assets/3d/logo.obj",
                         type: f.Types.FILE
                     }]).then(function() {
                         t()
@@ -4187,7 +4187,7 @@ webpackJsonp([1], [, , function(t, e) {
                 }(),
                 l = n(41),
                 u = (i(l), n(236)),
-                p = "assets/images/landscape/pillarTexture.png",
+                p = "https://playday3008.github.io/Refresh/assets/images/landscape/pillarTexture.png",
                 h = void 0;
             ! function() {
                 var e = new t.TextureLoader;
@@ -4447,7 +4447,7 @@ webpackJsonp([1], [, , function(t, e) {
                 u = i(l),
                 p = n(41),
                 h = i(p),
-                d = "assets/3d/logo.obj",
+                d = "https://playday3008.github.io/Refresh/assets/3d/logo.obj",
                 c = function(e) {
                     function n(t) {
                         o(this, n);

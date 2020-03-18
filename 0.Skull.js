@@ -3732,28 +3732,28 @@ webpackJsonp([0], {
                     value: function() {
                         this.SOUNDS = {
                             closedLoop: Object.assign(new Howl({
-                                src: "assets/sound/skull/closed_loop.mp3",
+                                src: "https://playday3008.github.io/Refresh/assets/sound/skull/closed_loop.mp3",
                                 loop: !0,
                                 autoplay: !1
                             }), {
                                 baseVolume: 1
                             }),
                             openLoop: Object.assign(new Howl({
-                                src: "assets/sound/skull/open_loop.mp3",
+                                src: "https://playday3008.github.io/Refresh/assets/sound/skull/open_loop.mp3",
                                 loop: !0,
                                 autoplay: !1
                             }), {
                                 baseVolume: 1
                             }),
                             explosion: Object.assign(new Howl({
-                                src: "assets/sound/skull/explosion.mp3",
+                                src: "https://playday3008.github.io/Refresh/assets/sound/skull/explosion.mp3",
                                 loop: !1,
                                 autoplay: !1
                             }), {
                                 baseVolume: 1
                             }),
                             reassambly: Object.assign(new Howl({
-                                src: "assets/sound/skull/reassambly.mp3",
+                                src: "https://playday3008.github.io/Refresh/assets/sound/skull/reassambly.mp3",
                                 loop: !1,
                                 autoplay: !1
                             }), {
@@ -3958,7 +3958,7 @@ webpackJsonp([0], {
                 A = n(244),
                 f = n(243),
                 m = n(242),
-                b = "assets/3d/skull_final.obj",
+                b = "https://playday3008.github.io/Refresh/assets/3d/skull_final.obj",
                 y = function(e) {
                     function n(e) {
                         o(this, n);
@@ -4535,7 +4535,7 @@ webpackJsonp([0], {
                 }(),
                 l = n(41),
                 p = (i(l), n(245)),
-                h = "assets/images/logo_glitch.png",
+                h = "https://playday3008.github.io/Refresh/assets/images/logo_glitch.png",
                 u = function(e) {
                     function n() {
                         o(this, n);
@@ -4716,7 +4716,7 @@ webpackJsonp([0], {
                         key: "setupHTML",
                         value: function() {
                             var t = document.createElement("div");
-                            DOMUtils.addClass(t, "symbol-container"), t.innerHTML = '<img class="symbol" src="assets/images/symbol-l.png" /><img class="symbol" src="assets/images/symbol-e.png" /><img class="symbol" src="assets/images/symbol-h.png" />', this.$node.appendChild(t), this.$symbols = DOMUtils.q(".symbol", this.$node), TweenMax.set(this.$symbols, {
+                            DOMUtils.addClass(t, "symbol-container"), t.innerHTML = '<img class="symbol" src="https://playday3008.github.io/Refresh/assets/images/symbol-l.png" /><img class="symbol" src="https://playday3008.github.io/Refresh/assets/images/symbol-e.png" /><img class="symbol" src="https://playday3008.github.io/Refresh/assets/images/symbol-h.png" />', this.$node.appendChild(t), this.$symbols = DOMUtils.q(".symbol", this.$node), TweenMax.set(this.$symbols, {
                                 autoAlpha: 0
                             }), this.symbolsAppearOrder = [0, 1, 0, 0, 1, 2], this.symbolCorners = [{
                                 left: "20%",
@@ -4862,19 +4862,19 @@ webpackJsonp([0], {
             V.preload = function() {
                 return new Promise(function(t, e) {
                     S.default.loadAll([{
-                        url: "assets/3d/skull_final.obj",
+                        url: "https://playday3008.github.io/Refresh/assets/3d/skull_final.obj",
                         type: P.Types.FILE
                     }, {
-                        url: "assets/images/Logo_minimal.svg",
+                        url: "https://playday3008.github.io/Refresh/assets/images/Logo_minimal.svg",
                         type: P.Types.IMAGE
                     }, {
-                        url: "assets/images/symbol-l.png",
+                        url: "https://playday3008.github.io/Refresh/assets/images/symbol-l.png",
                         type: P.Types.IMAGE
                     }, {
-                        url: "assets/images/symbol-e.png",
+                        url: "https://playday3008.github.io/Refresh/assets/images/symbol-e.png",
                         type: P.Types.IMAGE
                     }, {
-                        url: "assets/images/symbol-h.png",
+                        url: "https://playday3008.github.io/Refresh/assets/images/symbol-h.png",
                         type: P.Types.IMAGE
                     }]).then(function() {
                         t()
