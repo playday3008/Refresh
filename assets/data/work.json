@@ -3,10 +3,10 @@
 		{
 			"title": "Hypebeast",
 			"client": "Hypebeast/Pitch",
-			"background": "assets/images/projects/Hypebeast/_tmb.jpg",
+			"background": "assets/images/projects/Hypebeast/tmb.jpg",
 			"background-type": "image",
 			"project-url": "hypebeast-pitch",
-			"project-thumb": "assets/images/projects/Hypebeast/_tmb.jpg",
+			"project-thumb": "assets/images/projects/Hypebeast/tmb.jpg",
 			"mobile-background": "assets/images/projects/Hypebeast/mobile_thumb.jpg",
 			"template": "Hypebeast",
 			"assets": [
@@ -25,10 +25,10 @@
 		{
 			"title": "Fixed It",
 			"client": "Opera Software",
-			"background": "assets/images/projects/FixedIt/_tmb.jpg",
+			"background": "assets/images/projects/FixedIt/tmb.jpg",
 			"background-type": "image",
 			"project-url": "fixed-it",
-			"project-thumb": "assets/images/projects/FixedIt/_tmb.jpg",
+			"project-thumb": "assets/images/projects/FixedIt/tmb.jpg",
 			"mobile-background": "assets/images/projects/FixedIt/mobile_thumb.jpg",
 			"template": "FixedIt",
 			"assets": [
@@ -45,14 +45,14 @@
 		{
 			"title": "Jason Bourne",
 			"client": "Universal Studios/Pitch",
-			"background": "assets/images/projects/JasonBourne/_tmb.jpg",
+			"background": "assets/images/projects/JasonBourne/tmb.jpg",
 			"background-type": "image",
 			"project-url": "jason-bourne-pitch",
-			"project-thumb": "assets/images/projects/JasonBourne/_tmb.jpg",
+			"project-thumb": "assets/images/projects/JasonBourne/tmb.jpg",
 			"mobile-background": "assets/images/projects/JasonBourne/mobile_thumb.jpg",
 			"template": "JasonBourne",
 			"assets": [
-				"assets/images/projects/JasonBourne/_tmb.jpg",
+				"assets/images/projects/JasonBourne/tmb.jpg",
 				"assets/images/projects/JasonBourne/00.jpg",
 				"assets/images/projects/JasonBourne/01.jpg",
 				"assets/images/projects/JasonBourne/02.jpg",

@@ -11965,7 +11965,7 @@ webpackJsonp([4], [function(t, e, n) {
 }, function(t, e, n) {
     t.exports = n.p + "assets/images/projects/FixedIt/07.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/FixedIt/_tmb.jpg"
+    t.exports = n.p + "assets/images/projects/FixedIt/tmb.jpg"
 }, function(t, e, n) {
     t.exports = n.p + "assets/images/projects/FixedIt/mobile_thumb.jpg"
 }, function(t, e, n) {
@@ -11989,7 +11989,7 @@ webpackJsonp([4], [function(t, e, n) {
 }, function(t, e, n) {
     t.exports = n.p + "assets/images/projects/Hypebeast/09.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/Hypebeast/_tmb.jpg"
+    t.exports = n.p + "assets/images/projects/Hypebeast/tmb.jpg"
 }, function(t, e, n) {
     t.exports = n.p + "assets/images/projects/Hypebeast/mobile_thumb.jpg"
 }, function(t, e, n) {
@@ -12003,7 +12003,7 @@ webpackJsonp([4], [function(t, e, n) {
 }, function(t, e, n) {
     t.exports = n.p + "assets/images/projects/JasonBourne/04.jpg"
 }, function(t, e, n) {
-    t.exports = n.p + "assets/images/projects/JasonBourne/_tmb.jpg"
+    t.exports = n.p + "assets/images/projects/JasonBourne/tmb.jpg"
 }, function(t, e, n) {
     t.exports = n.p + "assets/images/projects/JasonBourne/mobile_thumb.jpg"
 }, function(t, e, n) {
@@ -13511,7 +13511,7 @@ webpackJsonp([4], [function(t, e, n) {
         "./images/projects/FixedIt/05.jpg": 526,
         "./images/projects/FixedIt/06.jpg": 527,
         "./images/projects/FixedIt/07.jpg": 528,
-        "./images/projects/FixedIt/_tmb.jpg": 529,
+        "./images/projects/FixedIt/tmb.jpg": 529,
         "./images/projects/FixedIt/mobile_thumb.jpg": 530,
         "./images/projects/Hypebeast/00.jpg": 531,
         "./images/projects/Hypebeast/01.jpg": 532,
@@ -13523,14 +13523,14 @@ webpackJsonp([4], [function(t, e, n) {
         "./images/projects/Hypebeast/07.jpg": 538,
         "./images/projects/Hypebeast/08.jpg": 539,
         "./images/projects/Hypebeast/09.jpg": 540,
-        "./images/projects/Hypebeast/_tmb.jpg": 541,
+        "./images/projects/Hypebeast/tmb.jpg": 541,
         "./images/projects/Hypebeast/mobile_thumb.jpg": 542,
         "./images/projects/JasonBourne/00.jpg": 543,
         "./images/projects/JasonBourne/01.jpg": 544,
         "./images/projects/JasonBourne/02.jpg": 545,
         "./images/projects/JasonBourne/03.jpg": 546,
         "./images/projects/JasonBourne/04.jpg": 547,
-        "./images/projects/JasonBourne/_tmb.jpg": 548,
+        "./images/projects/JasonBourne/tmb.jpg": 548,
         "./images/projects/JasonBourne/mobile_thumb.jpg": 549,
         "./images/symbol-e.png": 550,
         "./images/symbol-h.png": 551,
