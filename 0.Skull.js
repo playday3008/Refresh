@@ -5711,11 +5711,11 @@ webpackJsonp([0], {
                                 var d = o.substring(1).trim().split(" ")
                                   , c = []
                                   , g = [];
-                                if (o.indexOf("/") === -1)
+                                if (o.indexOf("/Refresh/") === -1)
                                     c = d;
                                 else
                                     for (var v = 0, A = d.length; v < A; v++) {
-                                        var f = d[v].split("/");
+                                        var f = d[v].split("/Refresh/");
                                         "" !== f[0] && c.push(f[0]),
                                         "" !== f[1] && g.push(f[1])
                                     }

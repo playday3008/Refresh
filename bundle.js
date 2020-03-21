@@ -497,7 +497,7 @@ webpackJsonp([4], [function(t, e, n) {
                     var i = e.getPageFromLocation(n);
                     console.log("ROUTER", e.currentPage, i),
                     e.currentPage !== i && (e.currentPage = i,
-                    f.default.trackPageView("/" + i),
+                    f.default.trackPageView("/Refresh/" + i),
                     c.default.dispatchEvent(t.Events.UPDATE, {
                         page: i
                     }))
@@ -506,7 +506,7 @@ webpackJsonp([4], [function(t, e, n) {
                 c.default.dispatchEvent(t.Events.UPDATE, {
                     page: n
                 }),
-                f.default.trackPageView("/" + n)
+                f.default.trackPageView("/Refresh/" + n)
             }
         }, {
             key: "push",
@@ -521,7 +521,7 @@ webpackJsonp([4], [function(t, e, n) {
         }, {
             key: "getPageFromLocation",
             value: function(t) {
-                return t.pathname.substr(1).split("/")[0]
+                return t.pathname.substr(1).split("/Refresh/")[0]
             }
         }]),
         t
@@ -1350,7 +1350,7 @@ webpackJsonp([4], [function(t, e, n) {
         var s = e.indexOf("?");
         return s !== -1 && (n = e.substring(s),
         e = e.substring(0, s)),
-        "" === e && (e = "/"),
+        "" === e && (e = "/Refresh/"),
         {
             pathname: e,
             search: n,
@@ -1864,7 +1864,7 @@ webpackJsonp([4], [function(t, e, n) {
             value: function(t) {
                 t.preventDefault(),
                 E.default.trackInteraction("Ui", "click", "CloseButton"),
-                this.currentIndex < 0 ? v.default.push("/work") : v.default.push("/")
+                this.currentIndex < 0 ? v.default.push("/Refresh/work") : v.default.push("/Refresh/")
             }
         }, {
             key: "logoEnter",
@@ -1893,7 +1893,7 @@ webpackJsonp([4], [function(t, e, n) {
             value: function(t) {
                 t.preventDefault(),
                 this.isMenuVisible ? (this.hideMenu(!1).then(function() {}),
-                v.default.push("/")) : v.default.push("/")
+                v.default.push("/Refresh/")) : v.default.push("/Refresh/")
             }
         }]),
         e
@@ -2032,12 +2032,12 @@ webpackJsonp([4], [function(t, e, n) {
     }
     ,
     e.createLocation = function() {
-        var t = arguments.length <= 0 || void 0 === arguments[0] ? "/" : arguments[0]
+        var t = arguments.length <= 0 || void 0 === arguments[0] ? "/Refresh/" : arguments[0]
           , e = arguments.length <= 1 || void 0 === arguments[1] ? l.POP : arguments[1]
           , n = arguments.length <= 2 || void 0 === arguments[2] ? null : arguments[2]
           , i = "string" == typeof t ? (0,
         c.parsePath)(t) : t
-          , o = i.pathname || "/"
+          , o = i.pathname || "/Refresh/"
           , r = i.search || ""
           , s = i.hash || ""
           , a = i.state;
@@ -5298,7 +5298,7 @@ webpackJsonp([4], [function(t, e, n) {
     }
     ,
     h.cwd = function() {
-        return "/"
+        return "/Refresh/"
     }
     ,
     h.chdir = function(t) {
@@ -7644,11 +7644,11 @@ webpackJsonp([4], [function(t, e, n) {
                     DOMUtils.html(e.$contentContainer, r);
                     var s = t < e.projectData.length - 1 ? e.projectData[t + 1] : e.projectData[0];
                     DOMUtils.text(e.$nextProjectTitle, s.title),
-                    e.$nextButton.href = "/" + s["project-url"],
+                    e.$nextButton.href = "/Refresh/" + s["project-url"],
                     e.$nextThumb.src = s["project-thumb"];
                     var a = t > 0 ? e.projectData[t - 1] : e.projectData[e.projectData.length - 1];
                     DOMUtils.text(e.$prevProjectTitle, a.title),
-                    e.$prevButton.href = "/" + a["project-url"],
+                    e.$prevButton.href = "/Refresh/" + a["project-url"],
                     e.$prevThumb.src = a["project-thumb"],
                     e.projectData[t].link ? (e.$visitButton.href = e.projectData[t].link,
                     TweenMax.to(e.$visitButton, .3, {
@@ -10214,7 +10214,7 @@ webpackJsonp([4], [function(t, e, n) {
                   , e = this.projectData[this.activeIndex];
                 DOMUtils.html(this.$headline, e.title),
                 DOMUtils.text(this.$client, e.client),
-                this.$projectLink.href = "/" + e["project-url"],
+                this.$projectLink.href = "/Refresh/" + e["project-url"],
                 e.link ? (this.$siteLink.href = e.link,
                 TweenMax.set(this.$siteLink, {
                     display: "block"
@@ -12492,7 +12492,7 @@ webpackJsonp([4], [function(t, e, n) {
         })
     }) ? u(function() {
         var t = i(this);
-        return "/".concat(t.source, "/", "flags"in t ? t.flags : !r && t instanceof RegExp ? o.call(t) : void 0)
+        return "/Refresh/".concat(t.source, "/Refresh/", "flags"in t ? t.flags : !r && t instanceof RegExp ? o.call(t) : void 0)
     }) : a.name != s && u(function() {
         return a.call(this)
     })
@@ -15143,7 +15143,7 @@ webpackJsonp([4], [function(t, e, n) {
       , d = o(p)
       , v = "_k"
       , m = function(t) {
-        return "/" === t.charAt(0) ? t : "/" + t
+        return "/Refresh/" === t.charAt(0) ? t : "/Refresh/" + t
     }
       , g = {
         hashbang: {
@@ -15156,7 +15156,7 @@ webpackJsonp([4], [function(t, e, n) {
         },
         noslash: {
             encodePath: function(t) {
-                return "/" === t.charAt(0) ? t.substring(1) : t
+                return "/Refresh/" === t.charAt(0) ? t.substring(1) : t
             },
             decodePath: m
         },
@@ -15316,7 +15316,7 @@ webpackJsonp([4], [function(t, e, n) {
           , d = t
           , v = d.entries
           , m = d.current;
-        "string" == typeof v ? v = [v] : Array.isArray(v) || (v = ["/"]),
+        "string" == typeof v ? v = [v] : Array.isArray(v) || (v = ["/Refresh/"]),
         v = v.map(function(t) {
             return (0,
             u.createLocation)(t)
@@ -15411,7 +15411,7 @@ webpackJsonp([4], [function(t, e, n) {
               , r = function(t) {
                 return t ? (i && null == t.basename && (0 === t.pathname.indexOf(i) ? (t.pathname = t.pathname.substring(i.length),
                 t.basename = i,
-                "" === t.pathname && (t.pathname = "/")) : t.basename = ""),
+                "" === t.pathname && (t.pathname = "/Refresh/")) : t.basename = ""),
                 t) : t
             }
               , u = function(t) {
@@ -15420,8 +15420,8 @@ webpackJsonp([4], [function(t, e, n) {
                 var e = "string" == typeof t ? (0,
                 a.parsePath)(t) : t
                   , n = e.pathname
-                  , r = "/" === i.slice(-1) ? i : i + "/"
-                  , s = "/" === n.charAt(0) ? n.slice(1) : n
+                  , r = "/Refresh/" === i.slice(-1) ? i : i + "/Refresh/"
+                  , s = "/Refresh/" === n.charAt(0) ? n.slice(1) : n
                   , u = r + s;
                 return o({}, e, {
                     pathname: u
